@@ -6,8 +6,6 @@
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3-7952B3?logo=bootstrap&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Status](https://img.shields.io/badge/Status-Estable-brightgreen)
-![Last Commit](https://img.shields.io/github/last-commit/USUARIO/REPO)
-![Issues](https://img.shields.io/github/issues/USUARIO/REPO)
 
 ---
 
