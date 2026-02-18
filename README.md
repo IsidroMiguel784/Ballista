@@ -1,5 +1,5 @@
-⚔️ Ballista
-Plataforma web sobre historia militar
+# ⚔️ Ballista
+# Plataforma web sobre historia militar
 
 Ballista es una plataforma web y red social temática centrada en historia militar, estrategia, liderazgo y armamento. Permite a los usuarios crear y compartir contenido especializado, interactuar mediante comentarios y apoyar el proyecto a través de un sistema de mecenazgo con ventajas exclusivas.
 
