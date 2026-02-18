@@ -1,166 +1,92 @@
-# ⚔️ Ballista
-# Plataforma web sobre historia militar
+# ⚔️ Ballista  
+### Plataforma web sobre historia militar
 
-Ballista es una plataforma web y red social temática centrada en historia militar, estrategia, liderazgo y armamento. Permite a los usuarios crear y compartir contenido especializado, interactuar mediante comentarios y apoyar el proyecto a través de un sistema de mecenazgo con ventajas exclusivas.
+![PHP](https://img.shields.io/badge/PHP-8.x-777BB4?logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-MariaDB-4479A1?logo=mysql&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3-7952B3?logo=bootstrap&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Status-Estable-brightgreen)
+![Last Commit](https://img.shields.io/github/last-commit/USUARIO/REPO)
+![Issues](https://img.shields.io/github/issues/USUARIO/REPO)
 
-El proyecto ha sido desarrollado con una arquitectura clara, tecnologías web clásicas y buenas prácticas de seguridad y mantenimiento.
+---
 
-🧭 Características principales
+## 📜 Descripción
 
-Registro y autenticación de usuarios
+**Ballista** es una plataforma web y red social temática centrada en la **historia militar**, la **estrategia**, el **liderazgo** y el **armamento**.  
+Permite a los usuarios crear y compartir contenido especializado, interactuar mediante comentarios y apoyar el proyecto mediante un sistema de mecenazgo con facturación automática.
 
-Creación y edición de publicaciones enriquecidas (editor WYSIWYG)
+---
 
-Categorización de contenido por temáticas:
+## 🧭 Características
 
-Estrategia
+- Registro y autenticación de usuarios
+- Publicaciones enriquecidas (WYSIWYG)
+- Categorización por temáticas
+- Sistema de comentarios
+- Mecenazgo con niveles:
+  - **Hoplita** (5 €)
+  - **Centurión** (10 €)
+- Generación de facturas en PDF
+- Envío automático de facturas por correo
+- Panel de usuario completo
+- Diseño responsive
 
-Armamento
+---
 
-Liderazgo
+## 💬 Sistema de comentarios
 
-Historia militar
+- Comentarios asociados a usuarios autenticados
+- Relación publicación–comentarios en base de datos
+- Validación en frontend y backend
+- Consultas seguras mediante PDO
 
-Sistema de comentarios en publicaciones
+---
 
-Comentarios asociados a usuarios
+## ⚙️ Tecnologías
 
-Visualización cronológica
+### Frontend
+- Bootstrap 5.3.2
+- Bootstrap Icons 1.11.1
+- jQuery 3.6.0
+- Summernote 0.8.18
+- JavaScript + Fetch API
+- CSS personalizado
 
-Validación en cliente y servidor
+### Backend
+- PHP (POO)
+- MySQL / MariaDB
+- PDO
+- TCPDF
+- PHPMailer
 
-Sistema de mecenazgo con niveles:
+---
 
-Hoplita (5 €)
+## 🏗️ Arquitectura
 
-Centurión (10 €)
+- MVC simplificado
+- Patrones:
+  - Singleton
+  - Factory
+  - Observer
 
-Generación automática de facturas en PDF
+---
 
-Envío de facturas por correo electrónico
+## 🔐 Seguridad
 
-Panel de usuario con:
+- Hash de contraseñas con bcrypt
+- Consultas preparadas
+- Validación cliente/servidor
+- Control de sesiones
 
-Información personal
+---
 
-Publicaciones creadas
+## 🧪 Pruebas
 
-Comentarios realizados
+- Unitarias
+- Integración
+- Usuario
+- Rendimiento y seguridad básicos
 
-Estado de suscripción
+---
 
-Interfaz responsive y diseño cuidado
-
-💬 Sistema de comentarios
-
-La plataforma incorpora un sistema de comentarios integrado en cada publicación:
-
-Creación de comentarios mediante formularios dinámicos
-
-Asociación del comentario al usuario autenticado
-
-Relación directa publicación–comentarios en base de datos
-
-Protección contra inyección SQL mediante PDO
-
-Validación de contenido tanto en frontend como en backend
-
-Visualización optimizada para dispositivos móviles
-
-Este sistema fomenta la interacción y el debate histórico dentro de la comunidad.
-
-⚙️ Tecnologías utilizadas
-Frontend
-
-Bootstrap 5.3.2
-
-Bootstrap Icons 1.11.1
-
-jQuery 3.6.0
-
-Summernote 0.8.18
-
-JavaScript nativo + Fetch API
-
-CSS personalizado con media queries
-
-Backend
-
-PHP (programación orientada a objetos)
-
-MySQL / MariaDB
-
-PDO para acceso seguro a base de datos
-
-TCPDF para generación de PDFs
-
-PHPMailer para envío de correos electrónicos
-
-🏗️ Arquitectura
-
-Patrón MVC (Modelo–Vista–Controlador) simplificado
-
-Separación clara de responsabilidades
-
-Patrones de diseño aplicados:
-
-Singleton para la conexión a base de datos
-
-Factory para la creación de objetos
-
-Observer para la gestión de eventos (facturas, correos)
-
-🔐 Seguridad
-
-Cifrado de contraseñas con bcrypt
-
-Uso de consultas preparadas con PDO
-
-Validación de datos en cliente y servidor
-
-Control de sesiones
-
-Protección básica contra accesos no autorizados
-
-Gestión segura de formularios (publicaciones, comentarios, mecenazgo)
-
-🧪 Pruebas realizadas
-
-Pruebas unitarias
-
-Inicio de sesión
-
-Generación de PDFs
-
-Envío de correos
-
-Creación de comentarios
-
-Pruebas de integración
-
-Flujo completo:
-Registro → Publicación → Comentarios → Mecenazgo → Factura
-
-Pruebas de usuario
-
-Experiencia real desde el registro hasta la suscripción
-
-Pruebas básicas
-
-Rendimiento
-
-Seguridad
-
-🚀 Estado del proyecto
-
-El proyecto se encuentra funcional y estable, con margen para ampliaciones futuras como:
-
-Sistema de moderación
-
-Edición/eliminación de comentarios
-
-Notificaciones
-
-Likes o valoraciones
-
-Roles de usuario
